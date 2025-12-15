@@ -1,7 +1,7 @@
 package edu.unl.cc.succession.business;
 
 import edu.unl.cc.succession.domain.Successionable;
-
+//
 public class PrimeNumberWithCubeRootCalculatorWithNTerm implements Successionable {
     private Integer limit;
     private Integer currentTerm;
@@ -73,3 +73,4 @@ public class PrimeNumberWithCubeRootCalculatorWithNTerm implements Successionabl
         return printableTerms.toString();
     }
 }
+
