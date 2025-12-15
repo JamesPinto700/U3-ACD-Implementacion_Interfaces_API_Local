@@ -1,7 +1,7 @@
 package edu.unl.cc.succession.business;
 
 import edu.unl.cc.succession.domain.Successionable;
-//autor Matias Encarnación
+//
 public class PrimeNumberCalculatorUpToLimit implements Successionable {
     private Integer limit;
     private Integer currentPrime;
@@ -67,4 +67,5 @@ public class PrimeNumberCalculatorUpToLimit implements Successionable {
         return printableTerms.toString();
     }
 }
+
 
