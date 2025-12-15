@@ -1,7 +1,7 @@
 package edu.unl.cc.succession.business;
 
 import edu.unl.cc.succession.domain.Successionable;
-
+//
 public class PrimeNumberWithSquareRootCalculatorUpToLimit implements Successionable {
     private Integer limit;
     private Integer currentTerm;
@@ -71,3 +71,4 @@ public class PrimeNumberWithSquareRootCalculatorUpToLimit implements Successiona
         return printableTerms.toString();
     }
 }
+
