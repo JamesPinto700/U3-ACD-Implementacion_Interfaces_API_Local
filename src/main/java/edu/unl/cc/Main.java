@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author MacGyver2.0
+ * @author James Sebastian Pinto Vasquez
  */
 public class Main {
 
@@ -42,15 +42,15 @@ public class Main {
         Successionable successionable = null;
 
         switch (option){
-            case 1: successionable = new EvenNumberCalculatorUpToLimit(limit); break;
-            case 2: successionable = new PrimeNumberPowCubeCalculatorUpToLimit(limit); break;
-            case 3: successionable = new PrimeNumberPowCubeCalculatorWithTerm(limit); break;
-            case 4: successionable = new PrimeNumberPowEvenNumberCalculatorUpToLimit(limit); break;
-            case 5: successionable = new PrimeNumberPowOddNumberCalculatorWithTerm(limit); break;
+            case 1: successionable = new EvenNumberCalculaterUpToLimint(limit); break;
+            case 2: successionable = new CalculatorForPrimeNumbersCubedUpToTheLimit(limit); break;
+            case 3: successionable = new PrimeNumberCubedCalculatorWithNTerms(limit); break;
+            case 4: successionable = new PrimeNumberWithEvenPowersCalculatorUpToLimit(limit); break;
+            case 5: successionable = new PrimeNumberWithOddPowersCalculatorWithNTerms(limit); break;
             case 6: successionable = new PrimeNumPowInverseEvenNumCalcToUpLim(limit); break;
             case 7: successionable = new PrimeNumPowInverseOddNumCalcWithTerm(limit); break;
-            case 8: successionable = new PrimeNumPowInverseCubeNumCalculator(limit); break;
-            case 9: successionable = new PrimeNumPowInverseSquareNumCalculator(limit); break;
+            case 8: successionable = new PrimeNumberWithCubeRootCalculatorWithNTerm(limit); break;
+            case 9: successionable = new PrimeNumberWithSquareRootCalculatorUpToLimit(limit); break;
             case 10: successionable = new PrimeNumberCalculatorUpToLimit(limit); break;
             default: System.out.printf("Opcion no valida");
         }

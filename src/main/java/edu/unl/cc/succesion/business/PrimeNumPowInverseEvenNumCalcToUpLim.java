@@ -8,8 +8,7 @@ import edu.unl.cc.succession.domain.Successionable;
  * @author James Sebastian Pinto Vasquez
  */
 public class PrimeNumPowInverseEvenNumCalcToUpLim implements Successionable {
-
-    private Integer limit;
+   private Integer limit;
     private Integer currentTerm;
     private StringBuilder printableTerms;
 
